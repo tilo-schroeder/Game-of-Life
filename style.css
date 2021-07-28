@@ -1,0 +1,54 @@
+#canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+#control {
+  display: inline-block;
+}
+
+#pauseBtn {
+    background-color: #03fcd3;
+    padding: 14px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pauseBtn:link, #pauseBtn:visited {
+    background-color: #04dbb8;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+#pauseBtn:hover, #pauseBtn:active {
+    background-color: #04dbb8;
+  }
+
+#resetBtn {
+    background-color: blueviolet;
+    padding: 14px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#resetBtn:link, #resetBtn:visited {
+    background-color: rgb(96, 24, 163);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+#resetBtn:hover, #resetBtn:active {
+    background-color: rgb(96, 24, 163);
+  }
